@@ -1,0 +1,30 @@
+.comment-box{
+    display: flex;
+    flex-direction: column;
+}
+.comment-box textarea{
+    width:  150px;
+    height: 150px;
+    border: 2px solid black;    
+    font-size: 1.5em;
+}
+
+.comment-box input[type="submit"]{
+    margin-top: 1em;
+    width:  100px;
+    border: 2px solid black;  
+    font-size: 1em;
+    padding: 0.5em;  
+}
+
+.comment-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.coment{
+    margin: 0.5em 0 0.5em 0;
+    border: 2px solid rgb(154, 240, 84);
+    padding: 1em;
+    max-width: 20em;
+}
